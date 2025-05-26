@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "phone": "+994 55-702-15-41",
+    "email": "bekiyevrufet@gmail.com",
+    "address": "Baku, Azerbaijan"
+  },
+  "education": [
+    "Bakalavr, Informasiya Təhlükəsizliyi, AzTU"
+  ],
+  "skills": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "languages": [
+    "English",
+    "Azerbaijani",
+    "Russian",
+    "Germany"
+  ],
+  "profile": {
+    "name": "Bekiyev Rüfət",
+    "email": "bekiyevrufet@gmail.com",
+    "birthDate": "2007.18.04",
+    "description": "Cyber Security student passionate about coding and security.",
+    "workExperience": [
+      "Intern at Cyber Security Lab"
+    
+    ]
+  }
+}

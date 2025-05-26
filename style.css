@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.first {
+  display: flex;
+  gap: 20px;
+}
+
+.left-side {
+  width: 26%;
+  background-color: rgb(209, 114, 36);
+  padding: 20px;
+  height: 120vh;
+  color: aliceblue;
+  overflow-y: auto;
+}
+
+.left-side h3,
+.right-side h3 {
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: rgb(209, 114, 36);
+  cursor: pointer;
+}
+
+.left-side p,
+.left-side li {
+  font-size: 12px;
+}
+
+.right-side {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.right-side h1 {
+  font-weight: bold;
+  color: black;
+}
+
+.right-side h4 {
+  font-weight: normal;
+  color: blue;
+}
+
+.reference-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ref-box {
+  width: 45%;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: rgb(13, 212, 80);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+button#resetBtn {
+  background-color: rgb(212, 13, 13);
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.profil-img {
+  width: 60%;
+  border-radius: 60%;
+  margin-bottom: 30px;
+}
+
+.editable-field {
+  margin-bottom: 8px;
+}
+
+.editable-field span {
+  margin-right: 10px;
+}
+
+.editable-field input {
+  width: 70%;
+  margin-right: 10px;
+}
